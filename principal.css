@@ -1,0 +1,89 @@
+/* a) Fundo e tipo de letra */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+/* b) Títulos e subtítulos */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: darkslategray;
+    text-align: center;
+}
+
+/* c) Parágrafos */
+p {
+    color: black;
+    font-size: 18px;
+}
+
+/* d) Classe .destaque (primeiro parágrafo da página inicial) */
+.destaque {
+    font-weight: bold;
+    color: black;
+    background-color: lightyellow;
+    padding: 10px;
+    border-left: 6px solid darkblue;
+}
+
+/* e) Imagens */
+img {
+    width: 350px;
+    height: 220px;
+    display: block;
+    margin: 20px auto;
+}
+
+.cursos img {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+/* f) Links */
+a {
+    color: darkblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+/* g) Tabela */
+table {
+    width: 800px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* h) Célula LISTA DE FORMANDOS */
+.lista {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
+/* i) Classes .sexo e .idade, e centralização de Nº, Idade e Nota */
+.sexo {
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.idade,
+.num,
+.nota {
+    text-align: center;
+}
